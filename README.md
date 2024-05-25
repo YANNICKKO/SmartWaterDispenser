@@ -10,7 +10,7 @@ This project involves an Arduino-based water dispenser monitoring system using a
 *    Water pump
 *    Connecting wires and breadboard
 
-# Software Components
+## Software Components
 
 * Arduino IDE for programming the ESP8266
 * Python for monitoring MQTT messages
