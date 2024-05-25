@@ -1,3 +1,5 @@
+# Smart Water Dispenser
+
 This project involves an Arduino-based water dispenser monitoring system using an ESP8266 module. The system detects the presence of a pet, checks the water level, and refills the water when necessary. It also sends alerts via MQTT if the water level needs to be manually refilled.
 ## Hardware Components
 
