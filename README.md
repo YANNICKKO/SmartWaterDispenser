@@ -28,3 +28,32 @@ Functions
    * loop(): Main loop that checks for MQTT connection and periodically checks for pet presence.
 * checkPetPresence(): Uses the ultrasonic sensor to detect the presence of a pet and checks the water level if no pet is detected.
  *   readSensor(): Reads the water level sensor and returns the current reading.
+
+# Python MQTT Monitor
+
+This Python script subscribes to the water-dispenser topic on the MQTT broker and prints any received messages to the console.
+Prerequisites
+
+*    Python 3.x
+*    paho-mqtt library (install via pip)
+
+## Installation
+
+Install the required library using pip:
+
+
+```pip install paho-mqtt```
+
+## Running the Python Script
+
+Save the script to a file, for example, mqtt_listener.py, and run it using Python:
+
+
+
+```python mqtt_listener.py```
+
+The script will print any messages received on the water-dispenser topic to the console, allowing you to monitor the status of your water dispenser.
+
+# Phone monitoring
+
+Install MQTT app from either AppStore or IoS store. Connect to the `water-dispenser` topic. Get messages when you need to refill the dispenser.
