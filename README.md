@@ -1,5 +1,3 @@
-# SmartWaterDispenser
-
 This project involves an Arduino-based water dispenser monitoring system using an ESP8266 module. The system detects the presence of a pet, checks the water level, and refills the water when necessary. It also sends alerts via MQTT if the water level needs to be manually refilled.
 ## Hardware Components
 
@@ -42,7 +40,9 @@ Prerequisites
 Install the required library using pip:
 
 
-```pip install paho-mqtt```
+```
+pip install paho-mqtt
+```
 
 ## Running the Python Script
 
@@ -50,7 +50,9 @@ Save the script to a file, for example, mqtt_listener.py, and run it using Pytho
 
 
 
-```python mqtt_listener.py```
+```
+python mqtt_listener.py
+```
 
 The script will print any messages received on the water-dispenser topic to the console, allowing you to monitor the status of your water dispenser.
 
